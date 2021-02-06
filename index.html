@@ -230,7 +230,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2021-02-06 00:50:03 / Modified: 13:54:05" itemprop="dateCreated datePublished" datetime="2021-02-06T00:50:03-05:00">2021-02-06</time>
+      <time title="Created: 2021-02-06 00:50:03 / Modified: 14:16:15" itemprop="dateCreated datePublished" datetime="2021-02-06T00:50:03-05:00">2021-02-06</time>
     </span>
 
   
@@ -244,10 +244,10 @@
     
     <div class="post-body" itemprop="articleBody">
           <p>I summarize here what Phil Haile mentions in his lecture slides – “‘Structural vs. Reduced’ Form Language, Confusion, and Models in Empirical Economics”. The slides clarify the correct meanings of terms such as “structural”, “reduced form”, “causal effects” by listing common misuses of them. On top of that, the slides emphasize the role of “model” in empirical works.</p>
-<p><em><strong>A Proper Taxonomy</strong></em><br />
-The slides start by correcting an improper but popular taxonomy of empirical works: measurement, model testing, and model estimation for counterfactuals. Phil argues that it would be misleading to treat “measurement” and “counterfactuals” as two parallel types, because almost all empirical works have something to do with “causal effects”, and “causality” is a concept defined based on “counterfactual” questions (e.g., what would happen if certain things were changed while others were held fixed?). Then what should be a proper taxonomy? Phil would prefer to use two types: “descriptive” and “structural”. A <strong>descriptive</strong> work estimates relationships between observables usually by establishing facts about data. A <strong>structural</strong> work estimates estimate features of a data generating process that are invariant to counterfactuals such as policy changes. These two types are not necessarily mutually exclusive to each other. For example, program evaluation is descriptive in the sense that it only characterizes relationships between observables; meanwhile it is also structural since it quantifies features of some underlying model characterized by a joint distribution of treatment, outcome and controls. Phil emphasizes for the first time here, that “model free” analysis is nonsense. Any type of causal inference requires a model to <strong>define</strong> and <strong>identify</strong> a counterfactual quality of interest. Thus in this sense, any type of causal inference is a form of structural estimation.</p>
-<p><em><strong>A Reduced Form (For what)</strong></em><br />
-What do we do with “reduced-form” then? We so often put “reduced-form” against “structural”. If they are really parallel to each other, then is “reduced-form” the same as “descriptive”? If they are not, then what?</p>
+<h1 id="a-proper-taxonomy"><a class="markdownIt-Anchor" href="#a-proper-taxonomy"></a> A Proper Taxonomy</h1>
+<p>The slides start by correcting an improper but popular taxonomy of empirical works: measurement, model testing, and model estimation for counterfactuals. Phil argues that it would be misleading to treat “measurement” and “counterfactuals” as two parallel types, because almost all empirical works have something to do with “causal effects”, and “causality” is a concept defined based on “counterfactual” questions (e.g., what would happen if certain things were changed while others were held fixed?). Then what should be a proper taxonomy? Phil would prefer to use two types: “descriptive” and “structural”. A <strong>descriptive</strong> work estimates relationships between observables usually by establishing facts about data. A <strong>structural</strong> work estimates estimate features of a data generating process that are invariant to counterfactuals such as policy changes. These two types are not necessarily mutually exclusive to each other. For example, program evaluation is descriptive in the sense that it only characterizes relationships between observables; meanwhile it is also structural since it quantifies features of some underlying model characterized by a joint distribution of treatment, outcome and controls. Phil emphasizes for the first time here, that “model free” analysis is nonsense. Any type of causal inference requires a model to <strong>define</strong> and <strong>identify</strong> a counterfactual quality of interest. Thus in this sense, any type of causal inference is a form of structural estimation.</p>
+<h1 id="a-reduced-form-for-what"><a class="markdownIt-Anchor" href="#a-reduced-form-for-what"></a> A Reduced Form (For what)</h1>
+<p>What do we do with “reduced-form” then? We so often put “reduced-form” against “structural”. If they are really parallel to each other, then is “reduced-form” the same as “descriptive”? If they are not, then what?</p>
 <p>Surprisingly, there has been a formal definition of a reduced form since 1950s:</p>
 <p>A reduced form is a functional or stochastic mapping for which the inputs are (i) exogenous variables and (ii) unobservables (“structural error”), and for which the outputs are endogenous variables, e.g Y = f(X,Z,U).</p>
 <p>Formally, a reduced form is obtained by <strong>solving a structural model</strong> for each endogenous variable as a function of the exogenous observables and structural errors.</p>
@@ -259,20 +259,46 @@ P = MC(Q,Z,U_s) (the supply).</p>
 Q = q(Z,X,U_d,U_s).</p>
 <p>Despite its formal definition, Phil argues that most uses of “reduced form” today are either wrong or logically incoherent. A common mistake is to label descriptive analysis that evaluates predictions or suggests patterns of data as “reduced form”, but they may be really no more than regressions. Besides wrong uses, people consciously put “reduced form” against “structural” without giving a fine line between these two. One frequently used “criterion” is that, a reduced form is generated by collapsing a more complex model into a simpler presentation. It seemingly makes sense, but what does it even mean? Isn’t it true that every model is somewhat abstracted from the real world by-passing some underlying mechanisms?</p>
 <p>Anyways, three takeaways from this section:</p>
-<p>(i) Stop using “reduced-form” as “model free”. Any reduced form requires at least implicit reference to some structural model. A better idea is to complete your phrase: a reduced form for what (structural).</p>
-<p>(ii) It would be better to stick to the formal definition or formula of a reduced form when using “reduced-form”: endogenous variable on the LHS with exogenous observables and structural errors on the RHS.</p>
-<p>(iii) A reduced form can also be used to conduct counterfactual analysis, as long as the counterfactual quality does not affect the mapping.</p>
-<p><em><strong>Identification</strong></em><br />
-Formally speaking, A structural feature \theta(S_0) is identified (or point identified, or identifiable) under the hypothesis H if \theta(S_0) is uniquely determined within the set {\theta(S): S\inH} by the joint distribution of observables.</p>
+<ul>
+<li>
+<p>Stop using “reduced-form” as “model free”. Any reduced form requires at least implicit reference to some structural model. A better idea is to complete your phrase: a reduced form for what (structural).</p>
+</li>
+<li>
+<p>It would be better to stick to the formal definition or formula of a reduced form when using “reduced-form”: endogenous variable on the LHS with exogenous observables and structural errors on the RHS.</p>
+</li>
+<li>
+<p>A reduced form can also be used to conduct counterfactual analysis, as long as the counterfactual quality does not affect the mapping.</p>
+</li>
+</ul>
+<h1 id="identification"><a class="markdownIt-Anchor" href="#identification"></a> Identification</h1>
+<p>Formally speaking, A structural feature \theta(S_0) is identified (or point identified, or identifiable) under the hypothesis H if \theta(S_0) is uniquely determined within the set {\theta(S): S\inH} by the joint distribution of observables.</p>
 <p>Some referred concepts in the definition requires clarification:</p>
-<p>(i) a <strong>structure</strong> S is a data generating process, i.e., a set of probabilistic or functional relationships between the observable and latent variables that implies (“generates”) a joint distribution of the observables;</p>
-<p>(ii) let S be the set of all structures and S_0\in S be the true structure, then a <strong>hypothesis</strong> H is any nonempty subset of S and it is true if S_0\in H;</p>
-<p>(iii) a <strong>structural feature</strong> \theta(S_0) is a function of the true structure.</p>
+<ul>
+<li>
+<p>a <strong>structure</strong> S is a data generating process, i.e., a set of probabilistic or functional relationships between the observable and latent variables that implies (“generates”) a joint distribution of the observables;</p>
+</li>
+<li>
+<p>let S be the set of all structures and S_0\in S be the true structure, then a <strong>hypothesis</strong> H is any nonempty subset of S and it is true if S_0\in H;</p>
+</li>
+<li>
+<p>a <strong>structural feature</strong> \theta(S_0) is a function of the true structure.</p>
+</li>
+</ul>
 <p>There are four takeaways for identification:</p>
-<p>(i) Identification cannot be defined without the notion of a true structure within a class defined by maintained hypotheses (what we usually call a “model”).</p>
-<p>(ii) Identification has nothing to do with a given sample or an estimator.</p>
-<p>(iii) Identification of a structural feature \theta(S_0) may hold even when the true structure S_0 is itself not identified. An example is that the identification of the reduced form of a supply-demand system does not mean that the supply and demand structural is identified.</p>
-<p>(iv) Always point out what are the observables when describing identification.</p>
+<ul>
+<li>
+<p>Identification cannot be defined without the notion of a true structure within a class defined by maintained hypotheses (what we usually call a “model”).</p>
+</li>
+<li>
+<p>Identification has nothing to do with a given sample or an estimator.</p>
+</li>
+<li>
+<p>Identification of a structural feature \theta(S_0) may hold even when the true structure S_0 is itself not identified. An example is that the identification of the reduced form of a supply-demand system does not mean that the supply and demand structural is identified.</p>
+</li>
+<li>
+<p>Always point out what are the observables when describing identification.</p>
+</li>
+</ul>
 <p>– 2/6/2021</p>
 
       
