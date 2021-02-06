@@ -23,28 +23,32 @@
     var NexT = window.NexT || {};
     var CONFIG = {"hostname":"example.com","root":"/","images":"/images","scheme":"Mist","version":"8.2.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}};
   </script>
-<meta property="og:type" content="website">
-<meta property="og:title" content="Scientia potentia est">
-<meta property="og:url" content="http://example.com/index.html">
+<meta name="description" content="I summarize here what Phil Haile mentions in his lecture slides – “‘Structural vs. Reduced’ Form Language, Confusion, and Models in Empirical Economics”. The slides clarify the correct meanings of ter">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Terminology in Empirical Works">
+<meta property="og:url" content="http://example.com/2021/02/06/Nonsense%20in%20Empirical%20Works/index.html">
 <meta property="og:site_name" content="Scientia potentia est">
+<meta property="og:description" content="I summarize here what Phil Haile mentions in his lecture slides – “‘Structural vs. Reduced’ Form Language, Confusion, and Models in Empirical Economics”. The slides clarify the correct meanings of ter">
 <meta property="og:locale" content="en_US">
+<meta property="article:published_time" content="2021-02-06T05:50:03.000Z">
+<meta property="article:modified_time" content="2021-02-06T08:13:38.747Z">
 <meta property="article:author" content="Azad">
 <meta name="twitter:card" content="summary">
 
 
-<link rel="canonical" href="http://example.com/">
+<link rel="canonical" href="http://example.com/2021/02/06/Nonsense%20in%20Empirical%20Works/">
 
 
 <script data-pjax class="page-configurations">
   // https://hexo.io/docs/variables.html
   CONFIG.page = {
     sidebar: "",
-    isHome : true,
-    isPost : false,
+    isHome : false,
+    isPost : true,
     lang   : 'en'
   };
 </script>
-<title>Scientia potentia est</title>
+<title>Terminology in Empirical Works | Scientia potentia est</title>
   
 
 
@@ -195,16 +199,17 @@
 </noscript>
 
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="en">
     <link itemprop="mainEntityOfPage" href="http://example.com/2021/02/06/Nonsense%20in%20Empirical%20Works/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -217,9 +222,9 @@
       <meta itemprop="name" content="Scientia potentia est">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/02/06/Nonsense%20in%20Empirical%20Works/" class="post-title-link" itemprop="url">Terminology in Empirical Works</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Terminology in Empirical Works
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -243,7 +248,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-          <p>I summarize here what Phil Haile mentions in his lecture slides – “‘Structural vs. Reduced’ Form Language, Confusion, and Models in Empirical Economics”. The slides clarify the correct meanings of terms such as “structural”, “reduced form”, “causal effects” by listing common misuses of them. On top of that, the slides emphasize the role of “model” in empirical works.</p>
+        <p>I summarize here what Phil Haile mentions in his lecture slides – “‘Structural vs. Reduced’ Form Language, Confusion, and Models in Empirical Economics”. The slides clarify the correct meanings of terms such as “structural”, “reduced form”, “causal effects” by listing common misuses of them. On top of that, the slides emphasize the role of “model” in empirical works.</p>
 <p><em><strong>A Proper Taxonomy</strong></em><br />
 The slides start by correcting an improper but popular taxonomy of empirical works: measurement, model testing, and model estimation for counterfactuals. Phil argues that it would be misleading to treat “measurement” and “counterfactuals” as two parallel types, because almost all empirical works have something to do with “causal effects”, and “causality” is a concept defined based on “counterfactual” questions (e.g., what would happen if certain things were changed while others were held fixed?). Then what should be a proper taxonomy? Phil would prefer to use two types: “descriptive” and “structural”. A <strong>descriptive</strong> work estimates relationships between observables usually by establishing facts about data. A <strong>structural</strong> work estimates estimate features of a data generating process that are invariant to counterfactuals such as policy changes. These two types are not necessarily mutually exclusive to each other. For example, program evaluation is descriptive in the sense that it only characterizes relationships between observables; meanwhile it is also structural since it quantifies features of some underlying model characterized by a joint distribution of treatment, outcome and controls. Phil emphasizes for the first time here, that “model free” analysis is nonsense. Any type of causal inference requires a model to <strong>define</strong> and <strong>identify</strong> a counterfactual quality of interest. Thus in this sense, any type of causal inference is a form of structural estimation.</p>
 <p><em><strong>A Reduced Form (For what)</strong></em><br />
@@ -297,7 +302,6 @@ iv) Always point out what are the observables when describing identification.
 --2/6/2021
 </p>
 
-      
     </div>
 
     
@@ -305,78 +309,22 @@ iv) Always point out what are the observables when describing identification.
     
 
     <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+
+        
+
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2021/02/02/first%20post/" rel="prev" title="Welcome Page">
+                  <i class="fa fa-chevron-left"></i> Welcome Page
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://example.com/2021/02/02/first%20post/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Azad">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Scientia potentia est">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2021/02/02/first%20post/" class="post-title-link" itemprop="url">Welcome Page</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">Posted on</span>
-      
-
-      <time title="Created: 2021-02-02 19:20:03 / Modified: 21:57:14" itemprop="dateCreated datePublished" datetime="2021-02-02T19:20:03-05:00">2021-02-02</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>I am going to use this website to record ideas and pratice writing.</p>
-<p>Hope it can work. Long live the page.</p>
-<p>– 2/2/2021</p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
