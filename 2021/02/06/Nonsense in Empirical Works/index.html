@@ -23,15 +23,15 @@
     var NexT = window.NexT || {};
     var CONFIG = {"hostname":"example.com","root":"/","images":"/images","scheme":"Mist","version":"8.2.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":false,"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"prism":false,"i18n":{"placeholder":"Searching...","empty":"We didn't find any results for the search: ${query}","hits_time":"${hits} results found in ${time} ms","hits":"${hits} results found"}};
   </script>
-<meta name="description" content="I summarize here what Phil Haile mentions in his lecture slides – “‘Structural vs. Reduced’ Form Language, Confusion, and Models in Empirical Economics”. The slides clarify the correct meanings of ter">
+<meta name="description" content="I summarize here what Phil Haile mentions in his lecture slides “‘Structural vs. Reduced’ Form Language, Confusion, and Models in Empirical Economics”. The slides correct common misuses of terms such">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Terminology in Empirical Works">
 <meta property="og:url" content="http://example.com/2021/02/06/Nonsense%20in%20Empirical%20Works/index.html">
 <meta property="og:site_name" content="Scientia potentia est">
-<meta property="og:description" content="I summarize here what Phil Haile mentions in his lecture slides – “‘Structural vs. Reduced’ Form Language, Confusion, and Models in Empirical Economics”. The slides clarify the correct meanings of ter">
+<meta property="og:description" content="I summarize here what Phil Haile mentions in his lecture slides “‘Structural vs. Reduced’ Form Language, Confusion, and Models in Empirical Economics”. The slides correct common misuses of terms such">
 <meta property="og:locale" content="en_US">
 <meta property="article:published_time" content="2021-02-06T05:50:03.000Z">
-<meta property="article:modified_time" content="2021-02-06T23:58:09.998Z">
+<meta property="article:modified_time" content="2021-02-07T00:08:22.809Z">
 <meta property="article:author" content="Azad">
 <meta name="twitter:card" content="summary">
 
@@ -158,7 +158,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
-            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#a-proper-taxonomy"><span class="nav-number">1.</span> <span class="nav-text"> A Proper Taxonomy</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#a-reduced-form-for-what"><span class="nav-number">2.</span> <span class="nav-text"> A Reduced Form (For What)</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#identification"><span class="nav-number">3.</span> <span class="nav-text"> Identification</span></a></li></ol></div>
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#a-proper-taxonomy"><span class="nav-number">1.</span> <span class="nav-text"> A Proper Taxonomy</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#a-reduced-form-for-what"><span class="nav-number">2.</span> <span class="nav-text"> A Reduced Form (For What)</span></a></li><li class="nav-item nav-level-1"><a class="nav-link" href="#identification"><span class="nav-number">3.</span> <span class="nav-text"> Identification</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#reference"><span class="nav-number">3.1.</span> <span class="nav-text"> Reference</span></a></li></ol></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -236,7 +236,7 @@
       <span class="post-meta-item-text">Posted on</span>
       
 
-      <time title="Created: 2021-02-06 00:50:03 / Modified: 18:58:09" itemprop="dateCreated datePublished" datetime="2021-02-06T00:50:03-05:00">2021-02-06</time>
+      <time title="Created: 2021-02-06 00:50:03 / Modified: 19:08:22" itemprop="dateCreated datePublished" datetime="2021-02-06T00:50:03-05:00">2021-02-06</time>
     </span>
 
   
@@ -249,7 +249,7 @@
     
     
     <div class="post-body" itemprop="articleBody">
-        <p>I summarize here what Phil Haile mentions in his lecture slides – “‘Structural vs. Reduced’ Form Language, Confusion, and Models in Empirical Economics”. The slides clarify the correct meanings of terms such as “structural”, “reduced form”, “causal effects” by listing common misuses of them. On top of that, the slides emphasize the role of “model” in empirical works.</p>
+        <p>I summarize here what Phil Haile mentions in his lecture slides “‘Structural vs. Reduced’ Form Language, Confusion, and Models in Empirical Economics”. The slides correct common misuses of terms such as “structural”, “reduced form”, “causal effects”. On top of that, the slides emphasize the role of “model” in empirical works.</p>
 <h1 id="a-proper-taxonomy"><a class="markdownIt-Anchor" href="#a-proper-taxonomy"></a> A Proper Taxonomy</h1>
 <p>The slides start by correcting an improper but popular taxonomy of empirical works: measurement, model testing, and model estimation for counterfactuals. Phil argues that it would be misleading to treat “measurement” and “counterfactuals” as two parallel types, because almost all empirical works have something to do with “causal effects”, and “causality” is a concept defined based on “counterfactual” questions (e.g., what would happen if certain things were changed while others were held fixed?). Then what should be a proper taxonomy? Phil uses two types: “descriptive” and “structural”. A <strong>descriptive</strong> work estimates relationships between observables usually by establishing facts about data. A <strong>structural</strong> work estimates features of a data generating process that are invariant to counterfactuals such as policy changes. These two types are not necessarily mutually exclusive to each other. For example, program evaluation is descriptive in the sense that it only characterizes relationships between observables; meanwhile it is also structural since it quantifies features of some underlying model characterized by a joint distribution of treatment, outcome and controls. Phil emphasizes for the first time here, that “model free” analysis is nonsense. Any type of causal inference requires a model to <strong>define</strong> and <strong>identify</strong> a counterfactual quality of interest. Thus in this sense, any type of causal inference is a form of structural estimation.</p>
 <h1 id="a-reduced-form-for-what"><a class="markdownIt-Anchor" href="#a-reduced-form-for-what"></a> A Reduced Form (For What)</h1>
@@ -310,6 +310,9 @@ Q = q(Z,X,U_d,U_s).</p>
 <p>Always point out what are the observables when describing identification. E.g., xxx is identified when xxx and xxx are observable.</p>
 </li>
 </ul>
+<hr />
+<h2 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h2>
+<p>Phil Haile, 2020. <a target="_blank" rel="noopener" href="http://www.econ.yale.edu/~pah29/intro.pdf">http://www.econ.yale.edu/~pah29/intro.pdf</a></p>
 <p>– 2/6/2021</p>
 
     </div>
