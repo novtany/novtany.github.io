@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-02-07T01:28:08.657Z</updated>
+  <updated>2021-02-11T14:32:26.488Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hat Algebra</title>
+    <link href="http://example.com/2021/02/07/Hat%20Algebra/"/>
+    <id>http://example.com/2021/02/07/Hat%20Algebra/</id>
+    <published>2021-02-07T20:19:39.775Z</published>
+    <updated>2021-02-11T14:32:26.488Z</updated>
+    
+    <content type="html"><![CDATA[<hr /><h2 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h2><p>–</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;hr /&gt;
+&lt;h2 id=&quot;reference&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#reference&quot;&gt;&lt;/a&gt; Reference&lt;/h2&gt;
+&lt;p&gt;–&lt;/p&gt;
+</summary>
+      
+    
+    
+    
+    
+  </entry>
   
   <entry>
     <title>Terminology in Empirical Works</title>
