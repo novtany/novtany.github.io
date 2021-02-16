@@ -6,7 +6,7 @@
   <link href="http://example.com/atom.xml" rel="self"/>
   
   <link href="http://example.com/"/>
-  <updated>2021-02-16T06:00:52.777Z</updated>
+  <updated>2021-02-16T06:09:28.006Z</updated>
   <id>http://example.com/</id>
   
   <author>
@@ -21,20 +21,16 @@
     <link href="http://example.com/2021/02/07/Hat%20Algebra/"/>
     <id>http://example.com/2021/02/07/Hat%20Algebra/</id>
     <published>2021-02-07T20:19:39.775Z</published>
-    <updated>2021-02-16T06:00:52.777Z</updated>
+    <updated>2021-02-16T06:09:28.006Z</updated>
     
-    <content type="html"><![CDATA[<hr /><h2 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h2><table><thead><tr><th>Table</th><th>Column</th><th>Column</th></tr></thead><tbody><tr><td>interesting</td><td>good</td><td>excellent</td></tr></tbody></table><p class='katex-block'><span class="katex-display"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msub><mi>y</mi><mrow><mi>h</mi><mi>a</mi><mi>h</mi><mi>a</mi></mrow></msub></mrow><annotation encoding="application/x-tex">y_{haha}</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.625em;vertical-align:-0.19444em;"></span><span class="mord"><span class="mord mathdefault" style="margin-right:0.03588em;">y</span><span class="msupsub"><span class="vlist-t vlist-t2"><span class="vlist-r"><span class="vlist" style="height:0.33610799999999996em;"><span style="top:-2.5500000000000003em;margin-left:-0.03588em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight"><span class="mord mathdefault mtight">h</span><span class="mord mathdefault mtight">a</span><span class="mord mathdefault mtight">h</span><span class="mord mathdefault mtight">a</span></span></span></span></span><span class="vlist-s">​</span></span><span class="vlist-r"><span class="vlist" style="height:0.15em;"><span></span></span></span></span></span></span></span></span></span></span></p>]]></content>
+    <content type="html"><![CDATA[<hr /><h2 id="reference"><a class="markdownIt-Anchor" href="#reference"></a> Reference</h2>]]></content>
     
     
       
       
     <summary type="html">&lt;hr /&gt;
 &lt;h2 id=&quot;reference&quot;&gt;&lt;a class=&quot;markdownIt-Anchor&quot; href=&quot;#reference&quot;&gt;&lt;/a&gt; Reference&lt;/h2&gt;
-&lt;table&gt;
-&lt;thead&gt;
-&lt;tr&gt;
-&lt;th&gt;Table&lt;/th&gt;
-&lt;th&gt;Column&lt;</summary>
+</summary>
       
     
     
